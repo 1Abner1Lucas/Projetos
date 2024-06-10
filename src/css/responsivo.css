@@ -1,0 +1,21 @@
+@media(max-width:620px){
+    .cabecalho{
+        padding: 30px 0;
+    }
+    .personagens-slider{
+        padding: 0 15px;
+        gap:10px;
+    }
+    .btn-seta{
+        width: 20px;
+        height: 20px;
+        padding: 20px;
+    }
+    .lista-personagens{
+        height: 480px;
+    }
+}
+/* 
+    Atributo responsavel por modifciar as medidas p/ outros dispositivos
+    O max-width: xx px faz com que as mudancas so aparecam em dispositivos com xx de largura p/ baixo
+*/
