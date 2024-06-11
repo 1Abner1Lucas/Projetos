@@ -1,187 +1,50 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portal de Noticias</title>
-    <link rel="stylesheet" href="./style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="./images/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./responsivo.css">
+    <title>Frontend Mentor | Social links profile</title>
+
 </head>
+
 <body>
     <header>
-        <div class="container">
-            <h1 style="color:black">Meu Portal de Noticias</h1>
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="#tech" title="Ir p/ seção de Tecnologia">Tecnologia</a>
-                        </li>
-                        <li>
-                            <a href="#entret" title="Ir p/ seção Entretenimento">Entretenimento</a>
-                        </li>
-                        <li>
-                            <a href="#sports" title="Ir p/ seção Esportes">Esportes</a>
-                        </li>
-                        <li>
-                            <a href="#economy" title="Ir p/ seção Economia0">Economia</a>
-                        </li>
-                    </ul>
-                </nav>
-        </div>
+        <main class="card">
+            <img id="user-img" src="./images/avatar-jessica.jpeg" alt="user image">
+            <div>
+                <h1 id="user-name">Jessica Randall</h1>
+                <h3 id="local">London, United Kingdom</h3>
+                <h4 id="info">"Front-end developer and avid reader"</h4>
+            </div>
+            <ul>
+                <li>
+                    <a href="#" alt="link to Github">Github</a>
+                </li>
+                <li>
+                    <a href="#" alt="link to Frontend Mentor">Frontend Mentor</a>
+                </li>
+                <li>
+                    <a href="#" alt="link to Linkedin">Linkedin</a>
+                </li>
+                <li>
+                    <a href="#" alt="link to Twitter">Twitter</a>
+                </li>
+                <li>
+                    <a href="#" alt="link to Instagram">Instagram</a>
+                </li>
+            </ul>
+        </main>
+
     </header>
-        <section id="tech">
-            <div class="container">
-                <h2>Tecnologia</h2>
-                    <div class="articles">
-                            <article class="teste">
-                                <img src="./imagens/pc1.jpg" alt="Notebook"/>
-                                <header>
-                                    <time>05/06/2024 às 16:36</time>
-                                </header>
-                                    <h3>Novos Consoles</h3>
-                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem maxime numquam necessitatibus delectus corrupti tenetur sint sapiente. Sint impedit labore corporis unde excepturi, quam magni, totam magnam molestias repellat officia?
-                                    </p>
-                                    <a href="#" title="Leia a noticia completa">Leia mais</a>
-                            </article>
-                        <article class="teste">
-                            <img src="./imagens/pc2.jpg" alt="Notebook2"/>
-                                <header>
-                                    <time>05/06/2024 às 16:36</time>
-                                </header>
-                                    <h3>Melhores Sites de Desenvolvimento web</h3>
-                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem maxime numquam necessitatibus delectus corrupti tenetur sint sapiente. Sint impedit labore corporis unde excepturi, quam magni, totam magnam molestias repellat officia?
-                                    </p>
-                                    <a href="#" title="Leia a noticia completa">Leia mais</a>
-                            </article>
-                        <article class="teste">
-                            <img src="imagens/pc3.jpg" alt="Notebook3"/>
-                                <header>
-                                    <time>05/06/2024 às 16:36</time>
-                                </header>
-                                    <h3>Novos Empregos</h3>
-                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem maxime numquam necessitatibus delectus corrupti tenetur sint sapiente. Sint impedit labore corporis unde excepturi, quam magni, totam magnam molestias repellat officia?
-                                    </p>
-                                <a href="#" title="Leia a noticia completa">Leia mais</a>
-                        </article>
-                    </div>
-            </div>
-        </section>
-        <section id="entret">
-            <div class="container">
-                <h2>Entretenimento</h2>
-                    <div class="articles">
-                            <article class="teste">
-                                <img src="./imagens/cinema1.jpeg" alt="Cinema1"/>
-                                <header>
-                                    <time>05/06/2024 às 16:36</time>
-                                </header>
-                                    <h3>A volta do Teatro</h3>
-                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem maxime numquam necessitatibus delectus corrupti tenetur sint sapiente. Sint impedit labore corporis unde excepturi, quam magni, totam magnam molestias repellat officia?
-                                    </p>
-                                    <a href="#" title="Leia a noticia completa">Leia mais</a>
-                            </article>
-                        <article class="teste">
-                            <img src="./imagens/cinema2.jpg" alt="Cinema2"/>
-                                <header>
-                                    <time>05/06/2024 às 16:36</time>
-                                </header>
-                                    <h3>Baixa dos Cinemas</h3>
-                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem maxime numquam necessitatibus delectus corrupti tenetur sint sapiente. Sint impedit labore corporis unde excepturi, quam magni, totam magnam molestias repellat officia?
-                                    </p>
-                                <a href="#" title="Leia a noticia completa">Leia mais</a>
-                        </article>
-                            <article class="teste">
-                                <img src="imagens/cinema3.jpg" alt="Cinema3"/>
-                                <header>
-                                    <time>05/06/2024 às 16:36</time>
-                                </header>
-                                    <h3>Cultura do Streaming</h3>
-                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem maxime numquam necessitatibus delectus corrupti tenetur sint sapiente. Sint impedit labore corporis unde excepturi, quam magni, totam magnam molestias repellat officia?
-                                    </p>
-                                <a href="#" title="Leia a noticia completa">Leia mais</a>
-                        </article>
-                    </div>
-            </div>
-        </section>
-        <section id="sports">
-            <div class="container">
-                <h2>Esportes</h2>
-                    <div class="articles">
-                        <article class="teste">
-                            <img src="./imagens/futebol.jpg" alt="Bola no gramado"/>
-                            <header>
-                                    <time>05/06/2024 às 16:36</time>
-                            </header>
-                                <h3>Grande clássico na noite de hoje</h3>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis laboriosam ex nam sed explicabo animi officiis quo numquam corrupti facere perspiciatis repellat, beatae fugit? Voluptatibus eveniet quas ipsam mollitia inventore!
-                                    </p>
-                                    <a href="#" title="Leia mais sobre a noticia">Leia mais</a>
-                        </article>
-                        <article class="teste">
-                            <img src="./imagens/futebol-americano.jpg" alt="Jogador de futebol americano correndo com a bola na mão" />
-                            <header>
-                                <time class="creation_date">13/07/2022 às 12:35</time>
-                            </header>
-                            <h3>Noite do Superbowl</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-                            </p>
-                            <a href="#" title="Leia a notícia completa">Leia mais</a>
-                        </article>
-                        <article class="teste">
-                            <img src="./imagens/basquete.jpg" title="Vista aérea de uma quadra de basquete" />
-                            <header>
-                                <time>13/07/2022 às 12:35</time>
-                            </header>
-                            <h3>Notícia sobre a NBA</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-                            </p>
-                            <a href="#" title="Leia a notícia completa">Leia mais</a>
-                        </article>
-                    </div>
-            </div>
-        </section>
-        <section id="economy">
-            <div class="container">
-                    <h2>Economia</h2>
-                        <div class="articles">
-                                <article class="teste">
-                                    <img src="./imagens/dolares.jpg" alt="Muitos dólares" />
-                                    <header>
-                                        <time>13/07/2022 às 12:35</time>
-                                    </header>
-                                    <h3>Dólar em alta de 0.50%</h3>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-                                    </p>
-                                    <a href="#" title="Leia a notícia completa">Leia mais</a>
-                                </article>
-                                <article class="teste">
-                                    <img src="./imagens/euro.jpg" alt="Várias notas de euro" />
-                                    <header>
-                                        <time>13/07/2022 às 12:35</time>
-                                    </header>
-                                    <h3>Euro em queda de 0.40%</h3>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-                                    </p>
-                                    <a href="#" title="Leia a notícia completa">Leia mais</a>
-                                </article>
-                                <article class="teste">
-                                    <img src="./imagens/petroleo.jpg" alt="Extração de petróleo" />
-                                    <header>
-                                        <time>13/07/2022 às 12:35</time>
-                                    </header>
-                                    <h3>Alta no preço do barril do petróleo</h3>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-                                    </p>
-                                    <a href="#" title="Leia a notícia completa">Leia mais</a>
-                                </article>
-                        </div>
-            </div>
-        </section>        
 </body>
 
 </html>

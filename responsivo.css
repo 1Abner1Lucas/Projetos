@@ -1,0 +1,16 @@
+@media(max-width:620px){
+    .card{
+        padding:5px;
+        width: auto;
+        height: auto;
+    }
+    header{
+        padding: 10px;
+        margin: 10px;
+    }
+    body{
+        width: auto;
+        height: auto;
+        margin: 10px;
+    }
+}
